@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dog Breeds</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <style>
+    .hidden {
+      display: none;
+    }
+  </style>
+  <body>
+    <h1>Breed List</h1>
+    <div class="breed-list">
+      <div class="loading">Loading...</div>
+
+      <div class="breed-selector hidden">
+        <select name="breed" id="breed">
+          <option value="">Select Breeds</option>
+        </select>
+        <button id="get-sub-breed">Get Sub Breeds</button>
+      </div>
+      <h2>Sub breeds List</h2>
+      <ul class="sub-breed-list">
+        <p>Select a breed</p>
+      </ul>
+      <div class="images-container hidden">
+        <h2>Random Images</h2>
+        .
+        <div class="images-list"></div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="script1.js" defer></script>
+  </body>
+</html>

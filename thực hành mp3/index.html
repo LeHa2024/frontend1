@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <audio id="audio" src="" hidden></audio>
+
+    <div class="player">
+      <div>
+        <img src="" alt="" class="cover" />
+        <h2 class="title"></h2>
+        <h3 class="artist"></h3>
+      </div>
+      <button class="prev">Prev</button>
+      <button class="play">play</button>
+      <button class="next">next</button>
+      <button class="volume">Mute</button>
+    </div>
+    <div class="progress">
+      <span class="current-time">00:00</span>
+      <input type="range" value="0" min="0" max="100" class="progress-bar" />
+      <span class="duration">00:00</span>
+    </div>
+  </body>
+</html>

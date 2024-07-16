@@ -1,0 +1,227 @@
+body {
+  font-family: Poppins;
+  background-color: #eeeff1;
+  color: #1a1b1f;
+  line-height: 28px;
+}
+.page-name {
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 28px;
+  padding: 0px 0px 0px 15px;
+}
+.menu-item {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  margin: 0px 30px 0px 0px;
+  padding: 9px 0px;
+  text-decoration: none;
+}
+
+.info-header {
+  text-decoration: none;
+  position: absolute;
+  top: 5px;
+  right: 30px;
+}
+.About.contact.viewwork {
+  text-decoration: none;
+}
+.container {
+  position: relative;
+}
+#header {
+  text-decoration: none;
+  padding: 20px;
+}
+.logo img {
+  width: 35px;
+}
+.content-image img {
+  display: block;
+  border-radius: 15px;
+  margin: 0px 0px 50px;
+  width: 419px;
+}
+.viewwork {
+  background-color: black;
+  color: white;
+  padding: 16px 25px 12px;
+  border-radius: 8px;
+}
+.content {
+  padding: 97px 160px;
+  width: 100%;
+}
+.content-title {
+  color: #1a1b1f;
+  font-size: 80px;
+  font-weight: 500;
+  line-height: 90px;
+  margin: 10px 0px;
+  margin-top: 97px;
+}
+.content-news {
+  gap: 30px 50px;
+  line-height: 39px;
+  margin: 0px 0px 50px;
+  font-size: 25px;
+  font-weight: 300;
+}
+.content-main {
+  padding: 50px;
+}
+.career-title {
+  font-family: poppins;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 62px;
+  margin: 20px 0 15px;
+  width: 600px;
+}
+.career-main {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 32px;
+  margin: 0px 0px 50px;
+}
+.menu-list {
+  text-decoration: none;
+  width: 440px;
+}
+.list-item {
+  background-color: #eeeff1;
+  border-color: #ced1df;
+  border-radius: 8px;
+  border-style: solid;
+  border-width: 0.8px;
+  display: inline-block;
+  font-weight: 500;
+  letter-spacing: v1px;
+  line-height: 39px;
+  margin: 0px 10px 10px 0px;
+  padding: 0px 10px;
+  text-transform: uppercase;
+}
+.career {
+  padding: 0px 160px;
+}
+.career-content {
+  padding: 60px;
+}
+.career-list {
+  padding: 40px;
+}
+.working-title {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 62px;
+  margin: 20px 0px 15px;
+  padding: 30px 0px 0px;
+  padding-left: 160px;
+}
+.working {
+  padding: 160px;
+}
+.working-image {
+  text-align: left;
+  padding: 20px 0px 0px;
+  line-height: 28px;
+}
+.person-image img {
+  width: 150px;
+  border-radius: 200px;
+}
+.working-main {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 32px;
+  margin: 0px 0px 50px;
+  padding: 30px;
+}
+.working-info {
+  line-height: 28px;
+  padding: 20px 0px 0px;
+}
+.information-message {
+  border-radius: 15px;
+  background-color: #f0f1f4;
+  color: #1a1b1f;
+  line-height: 28px;
+
+  padding-left: 300px;
+  box-sizing: border-box;
+}
+.name-info {
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 34px;
+}
+.info-introduce {
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 88px;
+  margin: 15px 0px 20px;
+  text-align: left;
+  width: 502px;
+}
+form {
+  display: inline-block;
+  width: 502px;
+  margin: auto;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px;
+  margin: 0px 0px 5px;
+}
+.form-group {
+  margin-bottom: 20px;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+}
+input[type="text"],
+input[type="email"] {
+  background-color: #ffffff80;
+  border-radius: 8px;
+  color: #333;
+  font-size: 15px;
+  line-height: 26px;
+  margin: 0px 0px 18px;
+  padding: 30px 20px 30px 15px;
+}
+textarea {
+  background-color: #ffffff80;
+  border-radius: 8px;
+  color: #333;
+  font-size: 15px;
+  line-height: 26px;
+  margin: 0px 0px 18px;
+  padding: 30px 502px 30px 15px;
+}
+
+/* Định dạng cho nút gửi */
+button[type="submit"] {
+  background-color: #02000080;
+  border-radius: 8px;
+  color: #040000;
+  font-size: 15px;
+  line-height: 20px;
+  margin: 0px 0px 18px;
+  padding: 16px 25px 12px;
+  cursor: pointer;
+}
+.form-group.name {
+  position: relative;
+}
+.form-group.email {
+  position: absolute;
+  top: -50px;
+  right: -50px;
+}

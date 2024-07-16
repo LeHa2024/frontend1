@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Handling Events</title>
+    <script src="script.js" defer></script>
+    <style>
+      .circle {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-color: red;
+        position: fixed;
+      }
+      .square {
+        width: 30px;
+        height: 30px;
+        background-color: green;
+        position: fixed;
+      }
+
+      .character {
+        width: 100px;
+        height: 100px;
+        position: fixed;
+        object-fit: cover;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      .character.right {
+        transform: translate(-50%, -50%) scaleX(-1);
+      }
+    </style>
+  </head>
+  <body>
+    <img
+      class="character"
+      src="https://cdn0.iconfinder.com/data/icons/game-1-3/50/10-512.png"
+      alt=""
+    />
+    <h1>
+      Xin chào, tôi tên là
+      <span
+        class="name"
+        onmouseenter="showFullName()"
+        onmouseleave="showShortName()"
+        >Ba</span
+      >
+    </h1>
+
+    <button onclick="changeName()">Thay đổi tên</button>
+    <button onclick="changeColor()">Thay đổi màu ngẫu nhiên</button>
+
+    <div>
+      <a href="https://www.facebook.com" target="_blank">Facebook</a>
+    </div>
+
+    <div class="counter" data-min="-5" data-max="5">
+      <button class="minus">-</button>
+      <span>0</span>
+      <button class="plus">+</button>
+    </div>
+
+    <div class="counter" data-min="-10" data-max="10">
+      <button class="minus">-</button>
+      <span>0</span>
+      <button class="plus">+</button>
+    </div>
+  </body>
+</html>

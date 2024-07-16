@@ -1,0 +1,145 @@
+body {
+  font-family: ui-sans-serif;
+}
+.container {
+  width: 100%;
+}
+.header {
+  padding: 371px;
+}
+.menu {
+  text-decoration: none;
+}
+.container img {
+  width: 100%;
+}
+.menu-link {
+  display: inline-block;
+  line-height: 24px;
+  padding: 8px 16px;
+  text-align: left;
+  list-style: none;
+  text-decoration: none;
+}
+.navigation {
+  padding: 16px 24px;
+}
+.header-title {
+}
+.title {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0.5;
+}
+.badge {
+  line-height: 24px;
+  padding: 16px 24px;
+  text-decoration: none;
+  gap: 16px;
+}
+.banner {
+  position: relative;
+}
+
+.banner-image {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 521px;
+}
+.banner-title {
+  position: absolute;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.4px;
+  margin: 16px 0px;
+  top: 228px;
+  padding-left: 120px;
+}
+.banner-link {
+  position: absolute;
+  font-size: 20px;
+  letter-spacing: 0.4px;
+  line-height: 32.5px;
+  top: 276px;
+  padding-left: 120px;
+}
+.header-badge {
+}
+.header-name {
+  text-decoration: none;
+}
+.content-header {
+  align-items: center;
+  color: #000308;
+  flex-wrap: wrap;
+  line-height: 24px;
+  padding: 4px 24px;
+  margin-top: 20px;
+  text-decoration: none;
+}
+.product {
+  position: relative;
+  color: #4b5563;
+  line-height: 24px;
+  padding: 24px;
+}
+.heart-icon {
+  position: absolute;
+  bottom: 52px;
+  right: 24px;
+}
+.product-img {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+.product-img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px rgba(244, 241, 241, 0.5);
+}
+.product-name {
+  line-height: 24px;
+}
+.price {
+  line-height: 24px;
+  padding: 4px 0px 0px;
+}
+.about {
+  line-height: 24px;
+  padding: 32px 24px;
+}
+.about-title {
+  padding: 10px 24px;
+  line-height: 24px;
+}
+.about-link {
+  padding: 10px 24px;
+  line-height: 24px;
+}
+.about-content {
+  padding: 10px 24px;
+  line-height: 24px;
+}
+.horizontal-line {
+  border-top: 1px solid #000;
+  margin: 20px 0;
+}
+.footer {
+  position: relative;
+  line-height: 24px;
+  padding: 32px 24px;
+}
+.footer-about {
+  padding: 10px 24px;
+}
+.footer-social {
+  position: absolute;
+  padding: 10px 24px;
+  text-align: right;
+  right: 0px;
+}
+.footer-about-title {
+  color: #000308;
+}

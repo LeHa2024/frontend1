@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <audio id="audio" src="" hidden></audio>
+    <div class="container">
+      <div class="player">
+        <div>
+          <img src="" alt="" class="cover" />
+          <h2 class="title"></h2>
+          <h3 class="artist"></h3>
+        </div>
+        <div>
+          <button class="prev">Prev</button>
+          <button class="play">Play</button>
+          <button class="next">Next</button>
+          <button class="mute">Mute</button>
+        </div>
+        <div class="progress">
+          <span class="current-time">00:00</span>
+          <input
+            type="range"
+            class="progress-bar"
+            name=""
+            id=""
+            value="0"
+            min="0"
+            max="100"
+          />
+          <span class="duration">00:00</span>
+        </div>
+      </div>
+
+      <ul class="song-list">
+        <li class="song-item" data-id="1">
+          <img src="images/tuanhumotcongio.jpg" alt="Cover" />
+          <div class="song-info">
+            <h3>Tựa Như Một Cơn Gió</h3>
+            <p>Thiền Y Thuần</p>
+          </div>
+        </li>
+        <li class="song-item" data-id="2">
+          <img src="images/roitasengamphaohoacungnhau.jpg" alt="Cover" />
+          <div class="song-info">
+            <h3>Rồi Ta Sẽ Ngắm Pháo Hoa Cùng Nhau</h3>
+            <p>O.lew</p>
+          </div>
+        </li>
+        <li class="song-item" data-id="3">
+          <img src="images/suthanhhoa.jpg" alt="Cover" />
+          <div class="song-info">
+            <h3>Sứ Thanh Hoa</h3>
+            <p>Na Anh</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>

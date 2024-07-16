@@ -1,0 +1,25 @@
+.color {
+  color: bisque;
+  background-color: beige;
+}
+.alignment {
+  text-align: right;
+}
+.decoration {
+  text-decoration-line: underline;
+}
+.tranformation {
+  text-transform: uppercase;
+}
+
+.spacing{
+  letter-spacing: :1px;
+  word-spacing:20px;
+  line-height:30px;
+}
+.shadow{
+text-shadow:5px 5px 10px green;
+}
+.box model{
+  
+}

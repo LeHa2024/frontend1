@@ -1,0 +1,148 @@
+.img {
+  display: inline-block;
+  max-width: 100%;
+}
+.image-logo {
+  display: inline-block;
+  max-width: 100%;
+  width: 156px;
+  position: fixed;
+}
+.header {
+  text-decoration: none;
+  padding-bottom: 30px;
+}
+.anime {
+  color: black;
+  text-decoration: none;
+  background-color: rgb(250, 249, 247);
+  padding: 0px 16px;
+  box-shadow: 0px 0px 0px 1px;
+  border-radius: 10px;
+  position: fixed;
+  top: 16px;
+}
+.movie {
+  color: black;
+  text-decoration: none;
+  background-color: rgb(250, 249, 247);
+  padding: 0px 16px;
+  box-shadow: 0px 0px 0px 1px;
+  border-radius: 10px;
+  position: fixed;
+  top: 16px;
+}
+.english {
+  color: black;
+  max-width: 100%;
+  text-decoration: none;
+  background-color: rgb(250, 249, 247);
+  padding: 0px 8px;
+  box-shadow: 0px 0px 0px 1px;
+  border-radius: 10px;
+  position: fixed;
+  top: 16px;
+}
+.bxh {
+  color: black;
+  text-decoration: none;
+  background-color: rgb(250, 249, 247);
+  padding: 0px 12px;
+  box-shadow: 0px 0px 0px 1px;
+  border-radius: 10px;
+  position: fixed;
+  top: 16px;
+}
+.banner {
+  display: flex;
+  line-height: 24px;
+  max-width: 100;
+  padding: 20px 0px;
+}
+.card-banner {
+  max-width: 100%;
+}
+.card-advertise {
+  max-width: 100%;
+}
+.ad-price {
+  color: rgb(7, 117, 213);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 21;
+}
+.card-advertise {
+  position: relative;
+}
+.card-ad {
+  width: 150px;
+}
+.ad-info {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 5px;
+  color: rgb(114, 41, 41);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 21px;
+  background-image: linear-gradient(top), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0);
+}
+.ad-price {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 21px;
+}
+.tapmoinhat-title {
+  padding-top: 30px;
+}
+.title {
+  text-decoration: none;
+  color: #b91c1c;
+  font-family: Nunito;
+  font-size: 25px;
+  line-height: 37.5px;
+}
+.movie-card {
+  position: relative;
+  padding: 5px;
+}
+.movie-info {
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  bottom: 20px;
+  color: white;
+}
+.view-count {
+  position: absolute;
+  right: 10px;
+  bottom: 15px;
+  color: rgb(246, 246, 247);
+}
+.movie-card-thunbnail {
+  max-width: 100%;
+}
+.bosuutap {
+  width: 100%;
+}
+.bosuutap-title {
+  padding: 0px 20px;
+}
+.bosuutap-movie-card {
+  padding: 5px;
+  width: 100%;
+}
+.movie-bosuutap {
+}
+.card-bosuutap {
+  max-width: 100%;
+  width: 431px;
+  padding: 0px;
+}
+.bosuutap-thunbnail {
+  width: 100%;
+}
+.bosuutap-movie-card {
+  width: 100%;
+}

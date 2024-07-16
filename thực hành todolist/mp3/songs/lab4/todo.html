@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .todo-item.completed {
+        text-decoration: line-through;
+      }
+      .todo-list.loading,
+      .todo-list.empty {
+        padding-left: 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>TodoApp</h1>
+
+    <form class="todo-form">
+      <input placeholder="Nhập nội dung công việc" />
+      <button>Thêm</button>
+    </form>
+
+    <form class="todo-filter">
+      <span>
+        <input type="radio" id="all" value="all" name="filter" checked />
+        <label for="all">Tất cả</label>
+      </span>
+
+      <span>
+        <input type="radio" id="active" name="filter" value="active" />
+        <label for="active">Chưa hoàn thành</label>
+      </span>
+
+      <span>
+        <input type="radio" id="completed" name="filter" value="completed" />
+        <label for="completed">Đã hoàn thành</label>
+      </span>
+    </form>
+
+    <ul class="todo-list loading">
+      <p>Loading...</p>
+      <!-- <li class="todo-item">
+        <input type="checkbox" />
+        <span class="todo-content">Công việc 1</span>
+        <button class="todo-delete">Xóa</button>
+      </li>
+      <li class="todo-item completed">
+        <input type="checkbox" checked />
+        <span class="todo-content">Công việc 2</span>
+        <button class="todo-delete">Xóa</button>
+      </li> -->
+    </ul>
+
+    <div class="todo-meta">
+      <span class="todo-status"
+        >Còn <span class="todo-count">1</span> công việc cần làm</span
+      >
+      <button class="todo-clear-completed">
+        Xóa các công việc đã hoàn thành
+      </button>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="todo.js"></script>
+  </body>
+</html>

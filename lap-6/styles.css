@@ -1,0 +1,6 @@
+.container {
+  background-image: linear-gradient(to top, aab2ff);
+}
+.row {
+  display: flex;
+}

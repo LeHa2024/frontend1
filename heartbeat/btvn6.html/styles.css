@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: inner;
+}
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: rgb(108, 197, 222);
+}
+.wavy span {
+  display: flex;
+  justify-content: center;
+  display: inline-block;
+  color: rgb(0, 9, 9);
+  font-size: 40px;
+  animation: animate 1s ease-in-out infinite;
+  animation-delay: calc(0.1s* var(--i));
+}
+@keyframes animate{
+  0% {
+    transform: translateY(0px);
+  }
+  20% {
+    transform: translateY(-20px);
+  }
+  40%,100% {
+    transform: translateY(0px);
+ }

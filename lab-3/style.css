@@ -1,0 +1,63 @@
+/ Áp dụng cho tất cả nội dung /
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.card-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    width: 320px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 .7961918735236395px 2.3885756205709185px -.625px #0000000d,0 2.414506143104518px 7.2435184293135535px -1.25px #0000000d,0 6.382653521484461px 19.147960564453385px -1.875px #0000000d,0 20px 60px -2.5px #0000000d;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+}
+
+.card-thumbnail {
+    / Chiều rộng tối đa /
+    max-width: 100%;
+}
+
+.card-body {
+    padding: 30px;
+}
+
+.card-title {
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: -0.5px;
+    color: rgb(0, 17, 34);
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.card-excerpt {
+    line-height: 25.6px;
+    color: rgb(102, 102, 102);
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.card-link {
+    display: inline-block;
+    background-color: rgb(34, 34, 34);
+    color: white;
+    font-size: 14px;
+    line-height: 16.8px;
+    padding: 12px 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    box-shadow: 0 .7065919983928324px .7065919983928324px -.625px #00000026,0 1.8065619053231785px 1.8065619053231785px -1.25px #00000025,0 3.6217592146567767px 3.6217592146567767px -1.875px #00000023,0 6.8655999097303715px 6.8655999097303715px -2.5px #00000020,0 13.646761411524492px 13.646761411524492px -3.125px #0000001b,0 30px 30px -3.75px #0000000d;
+    font-weight: 500;
+}

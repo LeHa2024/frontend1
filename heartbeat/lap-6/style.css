@@ -1,0 +1,12 @@
+.body {
+  margin: 0px;
+  padding: 0px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heart {
+  height: 100px;
+  width: 100px;
+}
